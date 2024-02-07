@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap" rel="stylesheet">
+
+    <!-- RemixIcon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <title>Dental-care</title>
+</head>
+
+<body>
+    <div id="main">
+        <nav id="nav">
+            <div id="nav-part1">
+                <h3>Menu</h3>
+                <i class="ri-menu-4-line"></i>
+            </div>
+
+            <div id="nav-part2">
+                <h1>Dentytech</h1>
+            </div>
+
+            <div id="nav-part3">
+                <button>Log In</button>
+                <button>Sign Up</button>
+            </div>
+        </nav>
+        <h1>Our Advantages</h1>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <img id="img1"
+                  src="https://images.unsplash.com/photo-1582015752624-e8b1c75e3711?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="First-img">
+              </div>
+              <div class="swiper-slide">
+                  <img id="img2"
+                  src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Second-img">
+              </div>
+              <div class="swiper-slide">
+                  <img id="img3"
+                  src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Third-img">
+              </div>
+              <div class="swiper-slide">
+                  <img id="img4"
+                  src="https://images.unsplash.com/photo-1622519407650-3df9883f76a5?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Fourth-img">
+              </div>
+              <div class="swiper-slide">
+                  <img id="img5"
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Fifth-img">
+              </div>
+            </div>
+        </div>
+
+        <!-- Bottom left-text -->
+        <h5 id="btm-left">Expertise in Dentistry and Technology</h5>
+
+        <!-- Bottom right-text -->
+        <div id="btm-right">
+            <i class="ri-youtube-line"></i>
+            <i class="ri-facebook-circle-line"></i>
+            <i class="ri-instagram-line"></i>
+            <h5>Best Start! of 2024</h5>
+        </div>
+    </div>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          loop: true,
+          clickable: true,
+          direction: "vertical",
+          effect: "cards",
+          grabCursor: true,
+        });
+    </script>
+</body>
+
+</html>
